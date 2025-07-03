@@ -149,7 +149,7 @@ const Register = () => {
     
     setLoading(true);
     try {
-      const response = await fetch("https://portal-ngo.onrender.com/api/auth/signup", {
+      const response = await fetch("https://np-backend-nc4i.onrender.com/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -181,7 +181,7 @@ const Register = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch("https://portal-ngo.onrender.com/api/auth/verify-otp", {
+      const response = await fetch("https://np-backend-nc4i.onrender.com/api/auth/verify-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: internEmail, otp }),

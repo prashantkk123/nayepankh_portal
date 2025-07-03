@@ -163,7 +163,7 @@ const DashboardPage = () => {
       setIsLoading(true);
       try {
         const response = await fetch(
-          "https://portal-ngo.onrender.com/api/auth/user",
+          "https://np-backend-nc4i.onrender.com/api/auth/user",
           {
             method: "GET",
             headers: {
@@ -198,7 +198,7 @@ const DashboardPage = () => {
       setIsLoading(true);
       try {
         const response = await fetch(
-          "https://portal-ngo.onrender.com/api/campaign",
+          "https://np-backend-nc4i.onrender.com/api/campaign",
           {
             method: "GET",
             headers: {
@@ -227,7 +227,7 @@ const DashboardPage = () => {
       setIsLoading(true);
       try {
         const response = await fetch(
-          "https://portal-ngo.onrender.com/api/donations/leaderboard",
+          "https://np-backend-nc4i.onrender.com/api/donations/leaderboard",
           {
             method: "GET",
             headers: {
@@ -259,7 +259,7 @@ const DashboardPage = () => {
       setIsLoading(true);
       try {
         const response = await fetch(
-          "https://portal-ngo.onrender.com/api/donations",
+          "https://np-backend-nc4i.onrender.com/api/donations",
           {
             method: "GET",
             headers: {

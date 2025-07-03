@@ -39,7 +39,7 @@ function Transactions() {
       }
 
       try {
-        const response = await fetch("https://portal-ngo.onrender.com/api/donations", {
+        const response = await fetch("https://np-backend-nc4i.onrender.com/api/donations", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

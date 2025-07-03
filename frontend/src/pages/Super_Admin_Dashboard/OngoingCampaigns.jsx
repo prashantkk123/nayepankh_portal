@@ -47,7 +47,7 @@ const OngoingCampaigns = () => {
   useEffect(() => {
     const fetchCampaigns = async () => {
       try {
-        const response = await fetch("https://portal-ngo.onrender.com/api/campaign", {
+        const response = await fetch("https://np-backend-nc4i.onrender.com/api/campaign", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -131,7 +131,7 @@ const OngoingCampaigns = () => {
   const handleDeleteConfirm = async () => {
     try {
       const response = await fetch(
-        `https://portal-ngo.onrender.com/api/campaign/${campaignToDelete._id}`,
+        `https://np-backend-nc4i.onrender.com/api/campaign/${campaignToDelete._id}`,
         {
           method: "DELETE",
           headers: {
@@ -171,7 +171,7 @@ const OngoingCampaigns = () => {
   const handleUpdateConfirm = async () => {
     try {
       const response = await fetch(
-        `https://portal-ngo.onrender.com/api/campaign/${selectedCampaign._id}`,
+        `https://np-backend-nc4i.onrender.com/api/campaign/${selectedCampaign._id}`,
         {
           method: "PUT",
           headers: {
@@ -217,7 +217,7 @@ const OngoingCampaigns = () => {
     }
     try {
       const response = await fetch(
-        `https://portal-ngo.onrender.com/api/campaign/${selectedCampaign._id}/extend`,
+        `https://np-backend-nc4i.onrender.com/api/campaign/${selectedCampaign._id}/extend`,
         {
           method: "PUT",
           headers: {

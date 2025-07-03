@@ -61,7 +61,7 @@ const CampaignStatus = () => {
       }
 
       try {
-        const response = await fetch("https://portal-ngo.onrender.com/api/auth/user", {
+        const response = await fetch("https://np-backend-nc4i.onrender.com/api/auth/user", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -94,7 +94,7 @@ const CampaignStatus = () => {
 
       setIsLoading(true);
       try {
-        const response = await fetch("https://portal-ngo.onrender.com/api/campaign", {
+        const response = await fetch("https://np-backend-nc4i.onrender.com/api/campaign", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

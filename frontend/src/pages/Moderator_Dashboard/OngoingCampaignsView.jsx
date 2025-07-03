@@ -22,7 +22,7 @@ const OngoingCampaignsView = () => {
   useEffect(() => {
     const fetchCampaigns = async () => {
       try {
-        const response = await fetch("https://portal-ngo.onrender.com/api/campaign", {
+        const response = await fetch("https://np-backend-nc4i.onrender.com/api/campaign", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

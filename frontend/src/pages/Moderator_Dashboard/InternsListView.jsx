@@ -41,7 +41,7 @@ const InternsListView = () => {
   useEffect(() => {
     const fetchInterns = async () => {
       try {
-        const response = await fetch("https://portal-ngo.onrender.com/api/users", {
+        const response = await fetch("https://np-backend-nc4i.onrender.com/api/users", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -56,7 +56,7 @@ const InternsListView = () => {
             internList.map(async (intern) => {
               try {
                 const donationsResponse = await fetch(
-                  `https://portal-ngo.onrender.com/api/donations/by-referral/${intern.referralCode}`,
+                  `https://np-backend-nc4i.onrender.com/api/donations/by-referral/${intern.referralCode}`,
                   {
                     headers: { Authorization: `Bearer ${token}` },
                   }

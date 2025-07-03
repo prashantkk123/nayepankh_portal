@@ -21,7 +21,7 @@ const CampaignsInfoView = () => {
     const fetchCampaigns = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch("https://portal-ngo.onrender.com/api/campaign", {
+        const response = await fetch("https://np-backend-nc4i.onrender.com/api/campaign", {
           headers: { Authorization: `Bearer ${token}` },
         });
         const data = await response.json();

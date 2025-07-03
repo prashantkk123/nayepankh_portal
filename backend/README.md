@@ -6,7 +6,7 @@ This document provides a detailed explanation of the authentication, user, campa
 
 ## Base URL
 
-- **Development:** `https://portal-ngo.onrender.com`
+- **Development:** `https://np-backend-nc4i.onrender.com`
 - **Production:** (your deployed backend URL)
 
 All endpoints are prefixed with `/api`.
@@ -17,7 +17,7 @@ All endpoints are prefixed with `/api`.
 
 ## Base URL
 
-- **Development:** `https://portal-ngo.onrender.com`
+- **Development:** `https://np-backend-nc4i.onrender.com`
 - **Production:** (your deployed backend URL)
 
 All endpoints are prefixed with `/api/auth`.
